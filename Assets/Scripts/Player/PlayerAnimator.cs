@@ -30,7 +30,6 @@ namespace PlayerSpace
             _playerAnimator.SetFloat(_moveXAnimationParametrId, _playerController.currentBlendAnim.x);
             _playerAnimator.SetFloat(_moveYAnimationParametrId, _playerController.currentBlendAnim.y);
             _playerAnimator.SetBool("isRun", _playerController.isRun);
-            _playerAnimator.SetBool("isAim", _playerController.isAim);
             _playerAnimator.SetBool("isWalk", _playerController.isWalk);
         }
         

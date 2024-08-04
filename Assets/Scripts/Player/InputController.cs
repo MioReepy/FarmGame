@@ -13,9 +13,6 @@ namespace PlayerSpace
         private InputAction _actionMove;
         private InputAction _actionRun;
         private InputAction _actionJump;
-        private InputAction _actionShoot;
-        private InputAction _actionAim;
-        private InputAction _actionDrive;
 
         #endregion
 
@@ -23,10 +20,6 @@ namespace PlayerSpace
         public static event Interact OnJump;
         public static event Interact OnStartRun;
         public static event Interact OnCancelRun;
-        public static event Interact OnShoot;
-        public static event Interact OnStratAim;
-        public static event Interact OnCancelAim;
-        public static event Interact OnDrive;
         
         private void Awake()
         {
@@ -36,9 +29,6 @@ namespace PlayerSpace
             _actionMove = _playerInputController.actions["Move"];
             _actionRun = _playerInputController.actions["Run"];
             _actionJump = _playerInputController.actions["Jump"];
-            _actionShoot = _playerInputController.actions["Shoot"];
-            _actionAim = _playerInputController.actions["Aim"];
-            _actionDrive = _playerInputController.actions["Drive"];
 
             Cursor.lockState = CursorLockMode.Locked;
         }
@@ -47,10 +37,6 @@ namespace PlayerSpace
         {
             _actionRun.canceled += _ => CancelRun();
             _actionRun.performed += _ => StartRun();
-            _actionShoot.performed += _ => Shooting();
-            _actionAim.performed += _ => StartAim();
-            _actionAim.canceled += _ => CancelAim();
-            _actionDrive.performed += _ => Driveing();
         }
 
         private void Update()
@@ -92,34 +78,10 @@ namespace PlayerSpace
             }
         }
 
-        private void Shooting()
-        {
-            OnShoot?.Invoke();
-        }
-
-        private void StartAim()
-        {
-            OnStratAim?.Invoke();
-        }
-
-        private void CancelAim()
-        {
-            OnCancelAim?.Invoke();
-        }
-
-        private void Driveing()
-        {
-            OnDrive?.Invoke();
-        }
-
         private void OnDisable()
         {
             _actionRun.canceled -= _ => CancelRun();
             _actionRun.performed -= _ => StartRun();
-            _actionShoot.performed -= _ => Shooting();
-            _actionAim.performed -= _ => StartAim();
-            _actionAim.canceled -= _ => CancelAim();
-            _actionDrive.performed -= _ => Driveing();
         }
     }
 }
