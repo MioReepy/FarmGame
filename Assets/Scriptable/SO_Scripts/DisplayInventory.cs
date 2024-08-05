@@ -20,6 +20,12 @@ namespace InventorySpace
  
         private Dictionary<GameObject, InventorySlot> _itemsDisplayed;
 
+        private void Start()
+        {
+            _mouseItem = new MouseItem();
+            CreateSlots();
+        }
+
         public void CreateSlots()
         {
             _itemsDisplayed = new Dictionary<GameObject, InventorySlot>();
@@ -50,6 +56,7 @@ namespace InventorySpace
         private void OnExit(GameObject obj)
         {
             Debug.Log("Цвет меняем на старый");
+            _mouseItem.hoverObj = null;
         }
 
         private void OnDragBegin(GameObject obj)

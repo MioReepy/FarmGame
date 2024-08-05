@@ -30,7 +30,7 @@ namespace PlayerSpace
             _actionRun = _playerInputController.actions["Run"];
             _actionJump = _playerInputController.actions["Jump"];
 
-            Cursor.lockState = CursorLockMode.Locked;
+            // Cursor.lockState = CursorLockMode.Locked;
         }
 
         private void OnEnable()
