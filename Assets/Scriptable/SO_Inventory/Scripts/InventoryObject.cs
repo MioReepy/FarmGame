@@ -7,12 +7,13 @@ namespace InventorySpace
     public class InventoryObject : ScriptableObject
     {
         public Inventory Container;
+        public ItemDataBaseObject DataBase;
 
-        public void MoveItem(InventorySlot item1, InventorySlot item2)
+        public void MoveItem(InventorySlot current, InventorySlot target)
         {
-            InventorySlot temp = new InventorySlot(item2.ID, item2.Item, item2.Amount);
-            item2.UpdateSlot(item1.ID, item1.Item, item1.Amount);
-            item1.UpdateSlot(temp.ID, temp.Item, temp.Amount);
+            InventorySlot temp = new InventorySlot(target.ID, target.Item, target.Amount);
+            target.UpdateSlot(current.ID, current.Item, current.Amount);
+            current.UpdateSlot(temp.ID, temp.Item, temp.Amount);
         }
         
         public void RemoveItem(Item item)

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4502d199b690d424d86fc45142050a3e, type: 3}
   m_Name: Orange
   m_EditorClassIdentifier: 
-  ID: 2
-  uiDisplay: {fileID: 0}
+  ID: 1
+  name: Orange
+  uiDisplay: {fileID: 21300000, guid: c1d0e6764d9c5f8458571840fb1d57d3, type: 3}
   type: 0
   description: "\u041D\u0435\u0432\u043A\u0443\u0441\u043D\u043E"
