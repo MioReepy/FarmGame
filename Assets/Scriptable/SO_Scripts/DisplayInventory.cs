@@ -42,6 +42,7 @@ namespace InventorySpace
             {
                 var obj = Instantiate(_inventoryCellPrefab, Vector3.zero, Quaternion.identity, transform);
                 obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
+                obj.GetComponent<Transform>().rotation = transform.rotation;
                 
                 AddEvent(obj, EventTriggerType.PointerEnter, delegate { OnEnter(obj); });
                 AddEvent(obj, EventTriggerType.PointerExit, delegate { OnExit(obj); });
@@ -97,7 +98,7 @@ namespace InventorySpace
         {
             var mouseObject = new GameObject();
             var rt = mouseObject.AddComponent<RectTransform>();
-            rt.sizeDelta = new Vector2(50f, 50f);
+            rt.sizeDelta = new Vector2(70f, 70f);
             mouseObject.transform.SetParent(transform.parent);
 
             if (_itemsDisplayed[obj].ID >= 0)

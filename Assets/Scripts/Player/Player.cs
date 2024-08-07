@@ -7,10 +7,12 @@ namespace PlayerSpace
     {
         [SerializeField] private InventoryObject _inventory;
 
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerStay(Collider other)
         {
             var item = other.GetComponent<GroundItem>();
-            if (item)
+            var maturation = other.GetComponent<PlantStage>();
+            
+            if (item && maturation._isReady)
             {
                 Item invItem = new Item(item.item);
                 _inventory.AddItem(invItem, 1);

@@ -8,8 +8,7 @@ namespace InventorySpace
         Fruit,
         Vegetable,
         RootCrop,
-        Cereals,
-        Tool
+        Cereals
     }
 
     public abstract class ItemObject : ScriptableObject

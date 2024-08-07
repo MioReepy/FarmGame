@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using WindowSpace;
 
 namespace PlayerSpace
 {
@@ -13,6 +14,7 @@ namespace PlayerSpace
         private InputAction _actionMove;
         private InputAction _actionRun;
         private InputAction _actionJump;
+        private InputAction _actionInventory;
 
         #endregion
 
@@ -20,6 +22,7 @@ namespace PlayerSpace
         public static event Interact OnJump;
         public static event Interact OnStartRun;
         public static event Interact OnCancelRun;
+        public static event Interact OnInventoryOpen;
         
         private void Awake()
         {
@@ -29,8 +32,7 @@ namespace PlayerSpace
             _actionMove = _playerInputController.actions["Move"];
             _actionRun = _playerInputController.actions["Run"];
             _actionJump = _playerInputController.actions["Jump"];
-
-            // Cursor.lockState = CursorLockMode.Locked;
+            _actionInventory = _playerInputController.actions["Inventory"];
         }
 
         private void OnEnable()
@@ -43,6 +45,7 @@ namespace PlayerSpace
         {
             Moving();
             Jumping();
+            InventoryOpen();
         }
 
         private void Moving()
@@ -75,6 +78,14 @@ namespace PlayerSpace
             if (_actionJump.triggered)
             {
                 OnJump?.Invoke();
+            }
+        }
+
+        private void InventoryOpen()
+        {
+            if (_actionInventory.triggered)
+            {
+                OnInventoryOpen?.Invoke();
             }
         }
 

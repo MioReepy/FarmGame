@@ -6,18 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8a8dd946-80ce-4b2b-9675-03b9920d7ddd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FarmGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FarmGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerController.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InventorySlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/InventorySlot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_DataBase/Database.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_DataBase/Database.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Inventory/Inventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Inventory/Inventory.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Inventory/Scripts/InventoryObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Inventory/Scripts/InventoryObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Inventory/Scripts/ItemObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Inventory/Scripts/ItemObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Apple.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Apple.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Orange.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Orange.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Scripts/DisplayInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Scripts/DisplayInventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Simple Fantasy GUI/Font/MedievalSharp SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Simple Fantasy GUI/Font/MedievalSharp SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Simple Fantasy GUI/PNG/Inventory/Money_Bar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Simple Fantasy GUI/PNG/Inventory/Money_Bar.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Simple Fantasy GUI/PNG/Quest Panel/Progress_Slot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Simple Fantasy GUI/PNG/Quest Panel/Progress_Slot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Scripts/GroundItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Scripts/GroundItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Scripts/TimeScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Scripts/TimeScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/InputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scriptable/SO_Scripts/GroundItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WindowController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -112,6 +111,7 @@
       <workItem from="1722795020355" duration="257000" />
       <workItem from="1722796970535" duration="3461000" />
       <workItem from="1722884764835" duration="12531000" />
+      <workItem from="1723048805139" duration="10788000" />
     </task>
     <servers />
   </component>
