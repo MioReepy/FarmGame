@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a8dd946-80ce-4b2b-9675-03b9920d7ddd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FarmGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FarmGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_DataBase/Database.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_DataBase/Database.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Apple.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Apple.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Beetroot.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Beetroot.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Carrot.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable/SO_Item/Carrot.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +101,7 @@
       <workItem from="1722795020355" duration="257000" />
       <workItem from="1722796970535" duration="3461000" />
       <workItem from="1722884764835" duration="12531000" />
-      <workItem from="1723048805139" duration="12470000" />
+      <workItem from="1723048805139" duration="13098000" />
     </task>
     <servers />
   </component>
