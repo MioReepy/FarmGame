@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12a596749281594796cfc5a72fe5105, type: 3}
   m_Name: Beetroot
   m_EditorClassIdentifier: 
-  ID: 0
-  name: 
-  uiDisplay: {fileID: 0}
-  type: 0
+  ID: 1
+  name: Beetroot
+  uiDisplay: {fileID: 21300000, guid: b83080d92786f42589381bbe09110c3c, type: 3}
+  type: 2
   description: 
